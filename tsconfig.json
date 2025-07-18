@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "strict": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "types": ["@types/node", "playwright"],
+      "outDir": "dist"
+    },
+    "include": ["tests/**/*.ts", "playwright.config.ts", "tests", "apis"],
+    "exclude": ["node_modules"]
+  }
+  
